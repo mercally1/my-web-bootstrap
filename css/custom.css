@@ -4,3 +4,9 @@ body {
     background-image: url('../Resources/images/pattern.png');
     background-repeat: repeat;
 }
+
+p{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
