@@ -8,20 +8,36 @@
     <title>Bethany Shop</title>
 </head>
 <body>
-    <main role="main">
-        <div>
-            <h1>Apple pie
-                <small>Our famous, number-one selling pie.</small>
+    <header>
+        <nav class="navbar nav-expand-lg navbar-dark fixed-top bg-dark">
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link">Index</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a  class="nav-link" href="index.html">Index</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <role="main">
+        <div class="m-3">
+            <div class="container">
+            <h1 class="fw-bolder">Apple pie
+                <small class="fw-normal fst-italic" >Our famous, number-one selling pie.</small>
             </h1> 
             
-            <div >
-                <div>
-                    <img src="Resources/images/products/applepie.jpg" alt="Image of apple pie">
+            <div class="row">
+
+                <div class="col-lg-8">
+                    <img src="Resources/images/products/applepie.jpg" alt="Image of apple pie" class="rounded" width="600">
                 </div>
 
-
-                <div>
-                    <h3>About this pie</h3>
+                <div class="col-lg-4">
+                    <h3 class="text-underline">About this pie</h3>
+                    <p class="lead text-center">Increase your pie intake</p>
                     <p>Sweet ice cream jelly beans lemon drops. Pastry toffee fruitcake gingerbread jelly-o.
                         Lollipop sesame snaps muffin. Macaroon halvah marshmallow sesame snaps sugar plum dragée.
                         Wafer pudding sesame snaps tootsie roll sesame snaps cake chupa chups jelly beans.</p>
@@ -32,24 +48,81 @@
                         <li>Eggs</li>
                         <li>Milk</li>
                     </ul>
-                    <div>
-                        <div>
+                    <div class="row">
+                        <div class="col-md-4">
                             <strong>$14.95</strong>
                         </div>
-                        <div class="m-4">
-                            <a type="button" href="shoppingbasket.html" class="btn btn-success">
+                        <div class="col-lg-8">
+                            <a type="button" href="shoppingbasket.html" class="btn btn-success float-end">
                                 Add to basket
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
+                <!-- table  -->
+            <div class="row">
+                <table class="table text-center table-hover table-bordered">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Ingredients</th>
+                            <th>Risk</th>
+                            <th>Percentage</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-success">
+                        <tr>
+                            <td>Apple</td>
+                            <td>Yes</td>
+                            <td>50 %</td>
+                        </tr>
+                        <tr>
+                            <td>Eggs</td>
+                            <td>Yes</td>
+                            <td>20 %</td>
+                        </tr>
+                        <tr>
+                            <td>Nuts</td>
+                            <td>Maybe</td>\
+                            <td>&lt; 0.1 %</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>Other customer also bought</h3>
+
+            <div class="row">
+               <div class="col-md-3 col-sm-6">
+                <a href="index.html">
+                    <img src="Resources\images\products\strawberrypiesmall.jpg" alt="">
+                </a>
+               </div>
+
+               <div class="col-md-3 col-sm-6">
+                <a href="index.html">
+                    <img src="Resources\images\products\rhubarbpiesmall.jpg" alt="">
+                </a>
+               </div>
+
+               <div class="col-md-3 col-sm-6">
+                <a href="index.html">
+                    <img src="Resources\images\products\peachpiesmall.jpg" alt="">
+                </a>
+               </div>
+
+               <div class="col-md-3 col-sm-6">
+                <a href="index.html">
+                    <img src="Resources\images\products\cranberrypiesmall.jpg" alt="">
+                </a>
+               </div>
+            </div>
+
         </div>
+    </div>
     </main>
 </body>
-<footer>
-    <div class="text-center">
-        &copy; 2024 - Bethany Shop
-    </div>
-</footer>
+
 </html>
+
+
